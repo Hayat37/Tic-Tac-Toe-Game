@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+
+    {% if message %}
+        <p id="message">{{ message }}</p>
+    {% else %}
+        <p id="message">Player {{ current_player }}'s turn</p>
+    {% endif %}
+
+    <div class="board">
+        {% for i in range(3) %}
+            {% for j in range(3) %}
+                <a class="cell" href="{{ url_for('move', row=i, col=j) }}">
+                    {{ board[i][j] }}
+                </a>
+            {% endfor %}
+        {% endfor %}
+    </div>
+
+    <a href="{{ url_for('reset') }}"><button>Restart</button></a>
+</body>
+</html>
