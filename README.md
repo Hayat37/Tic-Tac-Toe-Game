@@ -47,11 +47,3 @@ pip install flask
 python3 app.py
 
 5. Open your browser at http://127.0.0.1:5000 and play! 🎉
-
----
-
-License
-
-This project is open source. Feel free to use, modify, and share! 💜
-
-
