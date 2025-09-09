@@ -46,4 +46,4 @@ pip install flask
 4. Run the app:
 python3 app.py
 
-5. Open your browser at http://127.0.0.1:5000 and play! 🎉
+5. Open your browser at http://127.0.0.1:5000 and play! 
