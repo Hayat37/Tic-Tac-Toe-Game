@@ -1,4 +1,4 @@
-# Tic Tac Toe Game
+#Tic Tac Toe Game
 
 A **web-based Tic Tac Toe game** built with **Python Flask**, HTML, CSS, and JavaScript.  
 Play the classic 3x3 Tic Tac Toe game in your browser with a colorful, animated interface! 🎮✨
